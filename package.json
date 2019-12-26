@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "webpack",
-    "start": "node pages/index.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js",
     "export": "next export"
   },
   "keywords": [],
