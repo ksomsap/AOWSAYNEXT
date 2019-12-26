@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 import Layout from "../../components/Layout";
-import Head from "next/head";
-import {
-    BrowserView,
-    MobileView,
-  } from "react-device-detect";
 class Theresume extends Component {
 
     render() {
