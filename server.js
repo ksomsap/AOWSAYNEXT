@@ -13,9 +13,9 @@ app.prepare().then(() => {
         return app.render(req, res, "blog/detail", {id: req.params.id});
     })*/
 
-    /*server.get('/blogs/theresume/', (req, res) => {
+    server.get('/blogs/theresume/', (req, res) => {
         return app.render(req, res, '/blogs/theresume/', req.query)
-      })*/
+      })
     
     server.get("*", (req,res) => {
         return handle(req, res);

@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "export": "next export"
   },
   "keywords": [],
   "author": "",
