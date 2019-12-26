@@ -21,7 +21,7 @@ class Index extends Component{
                         <Detail  
                             title1 = "Go Gaxy"
                             blogpage = "/blogs/gogaxy"
-                            img = "/static/images/products/Gogaxy/gogaxy.png"
+                            img = "/static/images/products/GoGaxy/gogaxy.png"
                             imgtype4 = "/static/images/type/web.png"
                             imgtype3 = "/static/images/type/window.png"
                             imgtype2 = "/static/images/type/apple.png"
