@@ -9,7 +9,7 @@ class Header extends Component {
                     <div className="col-md-12 text-center">
                     <img style={{width:150}} src="/static/images/logo/icon.png" className="img-fluid" />
                         <h1 className="text-danger">                            
-                            <b>AOWSAY Game Studio</b>
+                            <b className="" > AOWSAY Game Studio </b>
                         </h1>
                         <br/>
                     </div>

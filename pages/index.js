@@ -7,9 +7,9 @@ class Index extends Component{
         return(
             <Layout>                
                 <div className="container">
-                    <div className="text-center">
-                       
-                        <p className="text-left"></p>
+
+                    <div className="text-center">                       
+                        <h1 className="text-center"><b>FEATURED GAMES</b></h1>
                     </div>                   
                     <div className="row d-flex justify-content-center">
                         <Detail 
@@ -39,6 +39,12 @@ class Index extends Component{
                         <Detail title1 = "Coming Soon..." 
                             img = "/static/images/logo/logoaow.png"
                         /> 
+                    </div>
+
+
+                    <h1 className="text-center"><b>UPDATE NEWS...</b></h1>
+                    <div> 
+                                
                     </div>
                 </div>          
             </Layout>               

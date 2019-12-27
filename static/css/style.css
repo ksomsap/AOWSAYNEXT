@@ -21,8 +21,8 @@ html {
 body
 {
     font-size: 1.4em; /* มีค่าประมาณ 14px */
-    color: #ddd;
-    background-color: #353535;
+    color: dark;
+    background-color: whitesmoke;
     padding-top: 70px;
 }
 
@@ -32,7 +32,7 @@ font{
 
 hr
 {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,13 +49,16 @@ p{
 }
 
 a {
-    color: grey;
+    color: gray;
 }
 
 a:hover, a.active, a.current {
-    color: white;
+    color: crimson;
     font-size: 105%;
 }
+
+
+
 
 
 

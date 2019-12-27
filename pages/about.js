@@ -10,7 +10,7 @@ const About = () => {
                         <div className="col-lg-2 col-md-2 col-sm-2" />
                         <div className="col-lg-8 col-md-8 col-sm-8">
                             <h1 style={{color:'green'}}><b>ABOUT US</b></h1>
-                            <p>AOWSAY creates amazing games that make an happiness impact on gamers around the world!</p>
+                            <p className="text-dark" >AOWSAY creates amazing games that make an happiness impact on gamers around the world!</p>
                             <p className="text-center">
                             Making a Game may seem like a few simple lines of code, but for these game development to deliver results, you need skilled specialists who go beyond just coding. This is where the first step in, providing a complete range of innovative new game products that make an emotional impact on gamers around the world!. We believe that our most important game is delivering happiness and shocking to everyone who enjoyed the game.
                             </p>

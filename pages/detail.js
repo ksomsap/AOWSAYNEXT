@@ -13,23 +13,39 @@ class Detail extends Component{
             imgtype4 = ""
         } = this.props;
         return(              
-                <div className="col-lg-3 col-md-3 col-sm-3 ml-2 mr-3  shadow-lg mb-5 pt-3 bg-dark rounded">
-                <style jsx>{`
-                    img {
-                        border-radius:30px;                               
-                    }
-                `}</style>
-                <Link href={blogpage}><a>                    
-                    <img src={img} className="img-fluid mb-3" />                          
-                </a>
-                </Link>
-                <h3 className="text-center">{title1}</h3>
-                <p className="text-right">
-                    <img src={imgtype4} style={{width:20}} className="img-fluid" />
-                    <img src={imgtype3} style={{width:20}} className="img-fluid" />
-                    <img src={imgtype2} style={{width:20}} className="img-fluid" />
-                    <img src={imgtype1} style={{width:20}} className="img-fluid" />
-                </p>
+                <div className="col-lg-4 col-md-4 col-sm-4 pb-3">                
+                    <Link className="" href={blogpage}><a>   
+                    <style jsx>{`
+                        img {
+                            border-radius: 40px;
+                            width:360px;
+                            box-shadow: 0px 6px 10px black;                  
+                        }
+                        img:hover {
+                            color: black;
+                            transform: scale(1.03);
+                            border-style: solid;
+                            border-color: silver;
+                            box-shadow: 0px 10px 20px black;                        
+                        }
+                    `}</style>                 
+                        <img src={img} className="img-fluid mb-3" />                          
+                    </a>
+                    </Link>
+                    <div className="">
+                        <h3 className="text-center">{title1}</h3>
+                        <p className="text-right pr-5">
+                        <style jsx>{`
+                            img {
+                                opacity: 0.6;                     
+                            }
+                        `}</style> 
+                            <img src={imgtype4} style={{width:18}} className="img-fluid" />
+                            <img src={imgtype3} style={{width:18}} className="img-fluid" />
+                            <img src={imgtype2} style={{width:18}} className="img-fluid" />
+                            <img src={imgtype1} style={{width:18}} className="img-fluid" />
+                        </p>
+                    </div>                
             </div>                     
         )
     }
