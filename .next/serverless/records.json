@@ -1,0 +1,29 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "pages\\_error.js": 2,
+      "pages\\about.js": 3,
+      "pages\\blogs\\gogaxy.js": 4,
+      "pages\\blogs\\theresume.js": 5,
+      "pages\\detail.js": 6,
+      "pages\\index.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"ADD;\nexport default SlideShow;","map":{"version":3,"sources":["C:/Users/AOWSAY/Desktop/W/aowsay-heroku-20191227/components/SlideShow.js"],"names":["ADD","SlideShow"],"mappings":"AAAAA,GAAG;AAEH,eAAeC,SAAf","sourcesContent":["ADD\r\n\r\nexport default SlideShow;"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,48 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-a591b2980a0968e30eae.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/blogs/gogaxy": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/blogs/theresume": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/detail": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.24328108077220e0a2be.js",
+      "static/runtime/main-e19fa6ceae512f0ffc73.js"
+    ]
+  }
+}
