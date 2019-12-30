@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/Layout";
+import SlideShow from "../components/SlideShow";
 import Detail from "./detail";
 
 class Index extends Component{
@@ -7,19 +8,31 @@ class Index extends Component{
         return(
             <Layout>                
                 <div className="container">
-
-                    <div className="text-center">                       
+                    <style jsx>{`
+                        h1{
+                            font-family:  Impact, sans-serif;
+                            font-size: 40px;
+                            margin-top:10px;
+                            margin-bottom:20px;
+                        }
+                        h1:hover{                         
+                        }                            
+                                   
+                        `}</style>
+                    <div className="text-center">                                           
                         <h1 className="text-center"><b>FEATURED GAMES</b></h1>
                     </div>                   
                     <div className="row d-flex justify-content-center">
                         <Detail 
                             title1 = "The Resume Game"
+                            titledet = "Fight with monsters to find the treasure."
                             blogpage = "/blogs/theresume"
                             img = "/static/images/products/TheResume/theresume.png"
                             imgtype1 = "/static/images/type/web.png"
                         />
                         <Detail  
                             title1 = "Go Gaxy"
+                            titledet = "Fight with monsters to find the treasure."
                             blogpage = "/blogs/gogaxy"
                             img = "/static/images/products/GoGaxy/gogaxy.png"
                             imgtype4 = "/static/images/type/web.png"
@@ -42,10 +55,10 @@ class Index extends Component{
                     </div>
 
 
-                    <h1 className="text-center"><b>UPDATE NEWS...</b></h1>
-                    <div> 
-                                
-                    </div>
+                    <h1 className="text-center"><b>GAME PLAY...</b></h1>
+                    <div className="bg-light">
+                        <SlideShow/>  
+                    </div>                      
                 </div>          
             </Layout>               
         )

@@ -6,8 +6,16 @@ const NavMenu = () => {
         
         <div className="container-fulid shadow-sm rounded">
             <style jsx>{`
-                font-family:  Impact, sans-serif;
-                font-size: 20px;
+                a
+                {
+                    font-family:  Impact, sans-serif;
+                    font-size: 20px;
+                }
+                p
+                {
+                    font-size: 10px;
+                    text-decoration: underline overline;
+                }               
                 nav{
                     background-color:silver;
                 }           
@@ -15,12 +23,12 @@ const NavMenu = () => {
             <nav className="navbar-expand-lg shadow-lg fixed-top">          
                 <div className="container text-center">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 col-sm-4 text-left text-danger ">                            
-  
+                        <div className="col-lg-4 col-md-4 col-sm-4">                           
+                             
                         </div> 
                          
                         <div className="col-lg-4 col-md-4 col-sm-4">
-                            <div className="d-flex justify-content-center">                      
+                            <div className="d-flex justify-content-center">                                                     
                                 <Link activeClassName="active" href="/">
                                     <a className="nav-item nav-link">HOME</a>
                                 </Link>

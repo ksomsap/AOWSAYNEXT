@@ -4,7 +4,8 @@ import Link from "next/link";
 class Detail extends Component{
     render(){
         const{
-            title1 = "AOWSAY", 
+            title1 = "AOWSAY",
+            titledet = "",
             img = "/static/images/products/1.png",
             blogpage = "",
             imgtype1 = "",
@@ -13,19 +14,19 @@ class Detail extends Component{
             imgtype4 = ""
         } = this.props;
         return(              
-                <div className="col-lg-4 col-md-4 col-sm-4 pb-3">                
+                <div className="col-lg-3 col-md-3 col-sm-3 pb-3 text-center">                
                     <Link className="" href={blogpage}><a>   
                     <style jsx>{`
                         img {
                             border-radius: 40px;
-                            width:360px;
+                            width:300px;
                             box-shadow: 0px 6px 10px black;                  
                         }
                         img:hover {
                             color: black;
                             transform: scale(1.03);
                             border-style: solid;
-                            border-color: silver;
+                            border-color: white;
                             box-shadow: 0px 10px 20px black;                        
                         }
                     `}</style>                 
@@ -33,7 +34,8 @@ class Detail extends Component{
                     </a>
                     </Link>
                     <div className="">
-                        <h3 className="text-center">{title1}</h3>
+                        <h3 className="text-center mt-1">{title1}</h3>
+                        <h5>{titledet}</h5>
                         <p className="text-right pr-5">
                         <style jsx>{`
                             img {

@@ -22,8 +22,8 @@ body
 {
     font-size: 1.4em; /* มีค่าประมาณ 14px */
     color: dark;
-    background-color: whitesmoke;
-    padding-top: 70px;
+    background-color: #F2F2F2;
+    padding-top: 40px;
 }
 
 font{
