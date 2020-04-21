@@ -23,7 +23,7 @@ const About = () => {
                         <div className="col-lg-3 col-md-3 col-sm-3" />
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <h1><b>ABOUT US</b></h1>
-                            <p className="text-dark" >
+                            <p className="text-center" >
                                 AOWSAY creates amazing games that make an happiness impact on gamers around the world!</p>
                             <p className="text-center">
                                 Making a Game may seem like a few simple lines of code,
@@ -70,7 +70,7 @@ const About = () => {
                                     }
                                 `}</style>
                                 <h2 className="mb-3"><b>KEITTISAK PHASOMSAP</b></h2>
-                                <h3 className="mb-3">Owner & Developer</h3>
+                                <h3 className="mb-3">Owner | Web Developer | Game Developer</h3>
                                 <h4 className="mb-3">
                                     Keittisak Phasomsap has an interesting in Game Development.<br/>
                                     And his free time is learning new technology and making a game.<br/>

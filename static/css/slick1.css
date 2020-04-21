@@ -1,31 +1,16 @@
 .slick-prev:before {
     color: darkgray;
-    font-size: 36px;
+    font-size: 50px;
+
+
 }
 
 .slick-next:before {
     color: darkgray;
-    font-size: 36px;
+    font-size: 50px;
+    right: 20px;
+
 }
 
-.slick-center {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    transform: scale(1.5); 
-    border-style: solid;
-    border-color: white;
-    border-width: 3px;
-    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
 
-.slick-list {
-    padding: 70px 70px !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
 
-.sc img {
-    height: calc(50vh - 100px);
-    width: auto;
-    margin: 0 auto; /* it centers any block level element */
-}

@@ -6,23 +6,27 @@ class Header extends Component {
         return (
             <div>
                 <style jsx>{`
-                    background-color:#E5E5E5;
+                    #topbar{
+                        background-color:#E5E5E5;
+                        background-image: url("/static/images/bg/cover0.png");
+                        height:300px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+
                 `}</style>
-                <div className="container-fluid">
-                    <br/>
+                <div id="topbar" className="container-fluid">
+
                     <div className="row">                        
-                        <div className="col-lg-3 col-md-3 col-sm-3 text-center">
-                        
+                        <div className="col-lg-3 col-md-3 col-sm-3 text-left">
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 text-center" >
-                        <img style={{width:150}} src="/static/images/logo/icon.png" className="img-fluid" />
-                        <h1 className="text-danger">                            
-                            <b className="" > AOWSAY Game Studio </b>
-                        </h1>
-                        <br/>
+
                         </div>
                     </div>
-                </div>                            
+
+                </div> 
+                <br/>                           
             </div>
         )
     }

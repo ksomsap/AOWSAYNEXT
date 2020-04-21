@@ -9,7 +9,12 @@ const NavMenu = () => {
                 a
                 {
                     font-family:  Impact, sans-serif;
-                    font-size: 20px;
+                    font-size: 18px;
+                    color: gray;
+                }
+                a:hover, a.active, a.current {
+                    color: crimson;
+                    font-size:20px;
                 }
                 p
                 {
@@ -21,10 +26,9 @@ const NavMenu = () => {
                 }           
             `}</style>
             <nav className="navbar-expand-lg shadow-lg fixed-top">          
-                <div className="container text-center">
+                <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 col-sm-4">                           
-                             
+                        <div className="col-lg-4 col-md-4 col-sm-4 text-left">                           
                         </div> 
                          
                         <div className="col-lg-4 col-md-4 col-sm-4">
@@ -35,8 +39,8 @@ const NavMenu = () => {
                                 <Link activeClassName="active" href="/about">
                                     <a className="nav-item nav-link" >ABOUT</a>
                                 </Link>
-                                <Link href="https://www.patreon.com/aowsay">
-                                    <a className="nav-item nav-link" target="_blank" >PATREON</a>
+                                <Link href="">
+                                    <a className="nav-item nav-link" >PATREON</a>
                                 </Link>                                             
                             </div>
                         </div> 

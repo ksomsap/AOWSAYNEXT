@@ -1,11 +1,16 @@
-/* next.config.js */
 module.exports = {
-    target: 'serverless', // <- add here
-    webpack: config => {
-      // Fixes npm packages that depend on `fs` module
-      config.node = {
-        fs: 'empty'
-      }
-      return config
-    }
+  useFileSystemPublicRoutes: false,
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' },
+      '/about': { page: '/about' },
+      '/product': { page: '/product' },
+      '/term': { page: '/term' },
+      '/policy': { page: '/policy' },
+      '/blogs/theresume': { page: '/blogs/theresume' },
+      '/blogs/gogaxy': { page: '/blogs/gogaxy' },
+      '/blogs/eearth': { page: '/blogs/eearth' },
+    };
   }
+};
