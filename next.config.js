@@ -1,6 +1,6 @@
 module.exports = {
   useFileSystemPublicRoutes: false,
-  exportTrailingSlash: true,
+  trailingSlash: true,
   exportPathMap: function() {
     return {
       '/': { page: '/' },

@@ -13,7 +13,7 @@ class GameLayout extends Component{
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no*" />
         
-                    <link rel = "icon" href = "/static/images/logo/icon.png" type = "image/x-icon" /> 
+                   {/* <link rel = "icon" href = "/static/images/logo/icon.png" type = "image/x-icon" /> */}
                     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
                     <link rel="stylesheet" href="/static/css/style.css" />
                 </Head>

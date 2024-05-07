@@ -4,7 +4,7 @@ import Link from "next/link";
 class Theresume extends Component {
 
     render() {
-        return (           
+        return (
             <Layout title = "Go Gaxy | AOWSAY">                                            
                 <div className="container text-center">
                     <h1>Go Gaxy</h1>
@@ -14,18 +14,26 @@ class Theresume extends Component {
                     </div>
                     <h3>Already Supported</h3>
                         <div>
-                            <Link className="" ><a target="_blank"><img src="/static/images/logo/ios.png" style={{width:200}} className="img-fluid m-3 ml-3" /></a></Link>
-                            <Link className="" href="https://play.google.com/store/apps/details?id=com.aowsay.GoGaxy"><a target="_blank"><img src="/static/images/logo/goo.png" style={{width:200}} className="img-fluid m-3 ml-3" /></a></Link>
+                            <Link className="" target="_blank" legacyBehavior><img src="/static/images/logo/ios.png" style={{width:200}} className="img-fluid m-3 ml-3" /></Link>
+                            <Link
+                                className=""
+                                href="https://play.google.com/store/apps/details?id=com.aowsay.GoGaxy"
+                                target="_blank"
+                                legacyBehavior><img src="/static/images/logo/goo.png" style={{width:200}} className="img-fluid m-3 ml-3" /></Link>
                         </div>
                         <div>
-                            <Link className="" href="https://aowsay.itch.io/gogaxy"><a target="_blank"><img src="/static/images/logo/itch.png" style={{width:200}} className="img-fluid m-3 ml-3" /></a></Link>
+                            <Link
+                                className=""
+                                href="https://aowsay.itch.io/gogaxy"
+                                target="_blank"
+                                legacyBehavior><img src="/static/images/logo/itch.png" style={{width:200}} className="img-fluid m-3 ml-3" /></Link>
                         </div>
                     <br/>
                     <br/>
                     <br />
                 </div>          
             </Layout>
-        )
+        );
     }
 }
 

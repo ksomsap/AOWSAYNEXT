@@ -80,10 +80,12 @@ const About = () => {
                                 <h4>
                                     Contacts...
                                 </h4>
-                                <Link href="https://www.linkedin.com/in/keittisak-phasomsap-72491413b/">
+                                <Link
+                                    href="https://www.linkedin.com/in/keittisak-phasomsap-72491413b/"
+                                    legacyBehavior>
                                     <a className="mr-2" target="_blank"><img src="/static/images/social/linkedin.png" alt="image" /></a>                    
                                 </Link>
-                                <Link href={`mailto:keittisakcpm@gmail.com`}>
+                                <Link href={`mailto:keittisakcpm@gmail.com`} legacyBehavior>
                                     <a className="mr-2" target="_top"><img src="/static/images/social/mail.png" alt="image" /></a>                                            
                                 </Link>                                                        
                             </div>
@@ -93,8 +95,8 @@ const About = () => {
                     </div>
                 </div>
             </div>                
-        </Layout>        
-    )
+        </Layout>
+    );
 }
 
 export default About;

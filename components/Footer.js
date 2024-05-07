@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 
 const Footer = (props) => {
-    return(
+    return (
         <div>
             <style jsx>{`
                 background-color:silver;
@@ -42,13 +42,15 @@ const Footer = (props) => {
                         
                         <div className="col-lg-4 col-md-4 col-sm-4 pb-3 text-center">
                         
-                            <Link href={'https://www.youtube.com/channel/UCTiawqM9Dokq3vm9snbKi9A'}>
+                            <Link
+                                href={'https://www.youtube.com/channel/UCTiawqM9Dokq3vm9snbKi9A'}
+                                legacyBehavior>
                                 <a className="mr-2" target="_blank"><img src="/static/images/social/youtube.png" alt="image" /></a>                                            
                             </Link>
-                            <Link href="#">
+                            <Link href="#" legacyBehavior>
                                 <a className="mr-2"  target="_blank"><img src="/static/images/social/twitter.png" alt="image" /></a>                    
                             </Link>
-                            <Link  href={'https://www.facebook.com/AOWSAYstudio'}>
+                            <Link href={'https://www.facebook.com/AOWSAYstudio'} legacyBehavior>
                                 <a className="mr-2"  target="_blank"><img src="/static/images/social/facebook.png" alt="image" /></a>                   
                             </Link>
                         </div>
@@ -60,8 +62,8 @@ const Footer = (props) => {
                     </div>
                 </div>
             </div>  
-        </div>        
-    )
+        </div>
+    );
 }
 
 export default Footer;
