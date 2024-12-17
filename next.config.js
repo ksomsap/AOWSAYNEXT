@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   useFileSystemPublicRoutes: false,
   trailingSlash: true,
@@ -12,5 +14,8 @@ module.exports = {
       '/blogs/gogaxy': { page: '/blogs/gogaxy' },
       '/blogs/eearth': { page: '/blogs/eearth' },
     };
-  }
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 };

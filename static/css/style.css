@@ -48,6 +48,18 @@ p{
     font-family: 'Prompt-Regular';
 }
 
+.image_blog img {
+    border-radius: 40px;
+    width:300px;
+    box-shadow: 0px 6px 10px black;                  
+}
+.image_blog img:hover {
+    color: black;
+    transform: scale(1.03);
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 10px 20px black;                        
+}
 
 
 

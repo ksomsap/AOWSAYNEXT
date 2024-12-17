@@ -15,22 +15,10 @@ class Detail extends Component{
         } = this.props;
         return (
             <div className="col-lg-3 col-md-3 col-sm-3 pb-3 text-center">                
-                <Link className="" href={blogpage} legacyBehavior>   
-                <style jsx>{`
-                    img {
-                        border-radius: 40px;
-                        width:300px;
-                        box-shadow: 0px 6px 10px black;                  
-                    }
-                    img:hover {
-                        color: black;
-                        transform: scale(1.03);
-                        border-style: solid;
-                        border-color: white;
-                        box-shadow: 0px 10px 20px black;                        
-                    }
-                `}</style>                 
+                <Link className="" href={blogpage} legacyBehavior>
+                <div className="image_blog">
                     <img src={img} className="img-fluid mb-3" />
+                </div>             
                 </Link>
                 <div className="">
                     <h3 className="text-center mt-1">{title1}</h3>

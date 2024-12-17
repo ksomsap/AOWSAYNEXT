@@ -26,18 +26,12 @@ class Index extends Component{
                             img = "/static/images/products/EEarth/eearth.png"
                             titledet = "The Earth's going down to broken."
                             blogpage = "/blogs/eearth"
-                            imgtype3 = "/static/images/type/web.png"                            
-                            imgtype2 = "/static/images/type/apple.png"
-                            imgtype1 = "/static/images/type/android.png"
                         />                        
                         <Detail  
                             title1 = "Go Gaxy"
                             titledet = "Please leave the wall"
                             blogpage = "/blogs/gogaxy"
                             img = "/static/images/products/GoGaxy/gogaxy.png"
-                            imgtype3 = "/static/images/type/web.png"
-                            imgtype2 = "/static/images/type/apple.png"
-                            imgtype1 = "/static/images/type/android.png"
                         />
                         <Detail 
                             title1 = "The Resume Game"
